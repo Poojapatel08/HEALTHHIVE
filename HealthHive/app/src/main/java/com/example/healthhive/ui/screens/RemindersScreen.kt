@@ -47,7 +47,7 @@ fun ReminderScreen(viewModel: ReminderViewModel = viewModel()) {
             onClick = { showDialog.value = true },
             containerColor = MaterialTheme.colorScheme.primary,
             elevation = FloatingActionButtonDefaults.elevation(8.dp)
-        ) {
+         {
             Icon(
                 imageVector = Icons.Default.Add,
                 contentDescription = "Add Reminder",
