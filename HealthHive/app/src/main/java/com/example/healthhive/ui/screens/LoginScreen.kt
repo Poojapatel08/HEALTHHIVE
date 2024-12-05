@@ -240,7 +240,12 @@ fun LoginScreen(onLoginSuccess: () -> Unit, onSignUp: () -> Unit) {
                     .padding(vertical = 4.dp),
                 color = Color.White
             )
-
+            Text(
+                "Or",
+                color = Color.White,
+                fontSize = 12.sp,
+                modifier = Modifier.padding(vertical = 10.dp)
+            )
             // Google Sign-In Button
             Button(
                 onClick = {
